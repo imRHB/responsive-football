@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 /* common styles */
+
 * {
     margin: 0;
 }
@@ -19,6 +20,10 @@ main {
     align-items: center;
 }
 
+h2 {
+    font-size: 48px;
+}
+
 h3 {
     font-size: 28px;
 }
@@ -28,13 +33,17 @@ p {
     font-weight: 400;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* .container {
     width: 1050px;
     height: 474px;
     background-color: yellow;
 } */
 
-/* player section style */
+/* players section style */
 
 .players {
     display: grid;
@@ -59,4 +68,42 @@ p {
 
 .player-name {
     margin: 16px 0 10px 0;
+}
+
+/* highlight section style */
+
+.highlight-area {
+    margin-top: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.highlight-info {
+    width: 469px;
+    margin-right: 66px;
+}
+
+.hightlight-detail {
+    margin-bottom: 10px;
+    padding: 8px 0 24px 0;
+}
+
+.link-button {
+    color: white;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+}
+
+.fa-arrow-right {
+    margin-left: 8px;
+}
+
+.highlight-thumbnail {
+    width: 567px;
+    height: 427px;
+}
+
+.highlight-thumbnail img {
+    width: 100%;
 }
