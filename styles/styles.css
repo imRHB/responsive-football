@@ -24,26 +24,27 @@ body {
 .top-heading {
     margin: auto 0;
     display: flex;
-}
-
-.top-heading img {
-    margin-left: 0;
-    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .top-left {
     width: 50%;
-    margin: auto 102px auto 156px;
+    margin-left: 156px;
+}
+
+.top-right {
+    width: 50%;
+}
+
+.top-right img {
+    width: 80%;
 }
 
 .top-heading-title {
     color: white;
     font-size: 64px;
     margin-bottom: 27px;
-}
-
-.top-right {
-    width: 50%;
 }
 
 main {
@@ -60,12 +61,6 @@ p {
 a {
     text-decoration: none;
 }
-
-/* .container {
-    width: 1050px;
-    height: 474px;
-    background-color: yellow;
-} */
 
 /* players section style */
 
