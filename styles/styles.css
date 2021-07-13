@@ -13,6 +13,39 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.heading {
+    display: flex;
+    margin: 0 auto;
+    width: 1440px;
+    height: 677px;
+    background-color: #2D25A0;
+}
+
+.top-heading {
+    margin: auto 0;
+    display: flex;
+}
+
+.top-heading img {
+    margin-left: 0;
+    width: 100%;
+}
+
+.top-left {
+    width: 50%;
+    margin: auto 102px auto 156px;
+}
+
+.top-heading-title {
+    color: white;
+    font-size: 64px;
+    margin-bottom: 27px;
+}
+
+.top-right {
+    width: 50%;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -45,6 +78,7 @@ a {
 /* players section style */
 
 .players {
+    margin-top: 70px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
