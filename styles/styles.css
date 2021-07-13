@@ -14,7 +14,6 @@ body {
 }
 
 main {
-    background-color: whitesmoke;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -95,6 +94,13 @@ a {
     padding: 10px 24px;
 }
 
+.fab {
+    padding: 12px;
+    border-radius: 50%;
+    color: gray;
+    background-color: #969bab4d;
+}
+
 .fa-arrow-right {
     margin-left: 8px;
 }
@@ -106,4 +112,32 @@ a {
 
 .highlight-thumbnail img {
     width: 100%;
+}
+
+/* footer area style */
+footer {
+    margin: 158px 0 63px 0;
+}
+
+.footer-area {
+    width: 484px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .flex-logo {
+    width: 484px;
+    height: 110px;
+} */
+
+.footer-logo img {
+    width: 90%;
+    height: 90%;
+}
+
+.footer-social-icon {
+    margin: 20px 0;
 }
