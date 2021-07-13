@@ -52,14 +52,6 @@ main {
     align-items: center;
 }
 
-h2 {
-    font-size: 48px;
-}
-
-h3 {
-    font-size: 28px;
-}
-
 p {
     font-size: 16px;
     font-weight: 400;
@@ -100,6 +92,7 @@ a {
 }
 
 .player-name {
+    font-size: 28px;
     margin: 16px 0 10px 0;
 }
 
@@ -115,6 +108,10 @@ a {
 .highlight-info {
     width: 469px;
     margin-right: 66px;
+}
+
+.highlight-title {
+    font-size: 48px;
 }
 
 .hightlight-detail {
