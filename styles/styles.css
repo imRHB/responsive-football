@@ -201,7 +201,112 @@ a {
 }
 
 
+/* blog section style */
 
+.top-blogs {
+    width: 1050px;
+    margin: 120px 0 30px 0;
+}
+
+.section-title {
+    color: blueviolet;
+    background-color: honeydew;
+    font-size: 48px;
+    margin: 0 0 40px 0;
+    padding-left: 20px;
+    border-left: 10px solid red;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 40px;
+}
+
+.blog {
+    display: flex;
+    padding: 16px;
+    border-radius: 4px;
+    box-shadow: 0 0 16px 1px rgba(0, 0, 0, 0.1);
+}
+
+.blog-thumbnail img {
+    border-radius: 4px;
+    width: 192px;
+    height: 108px;
+}
+
+.blog-info {
+    margin: 0 20px;
+}
+
+.blog-title {
+    font-size: 28px;
+}
+
+.blog-author {
+    font-size: 16px;
+    color: #9F9F9F;
+}
+
+.blog-author a {
+    font-size: 16px;
+    color: #562EFF;
+    text-decoration: none;
+}
+
+
+/* top blogs section end */
+
+
+
+
+/* video section style */
+
+.trending-videos {
+    width: 1050px;
+    margin: 120px 0;
+}
+
+.section-title {
+    color: blueviolet;
+    background-color: honeydew;
+    font-size: 48px;
+    margin: 0 0 40px 0;
+    padding-left: 20px;
+    border-left: 10px solid red;
+}
+
+.videos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.video {
+    display: flex;
+    padding: 16px;
+    margin: 20px auto 40px auto;
+    /* border-radius: 4px;
+    box-shadow: 0 0 16px 1px rgba(0, 0, 0, 0.1); */
+}
+
+.video .video-thumbnail img {
+    border-radius: 4px;
+    width: 177px;
+    height: 117px;
+}
+
+.video-info {
+    margin: 0 20px;
+}
+
+.video-title {
+    font-size: 28px;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* video section style end */
 
 
 .fab {
@@ -314,6 +419,36 @@ footer {
 
     .highlight-thumbnail {
         width: 90%;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .top-blogs, .trending-videos {
+        width: 100%;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .blog, .video {
+        width: 90%;
+        margin: 0 auto 20px auto;
+    }
+
+    .blog-title {
+        font-size: 20px;
+    }
+
+    video {
+        width: 100%;
+        height: 100%;
+    }
+
+    .video-title {
+        margin: 20px 0 50px 0;
     }
 
     footer {
