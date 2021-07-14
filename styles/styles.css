@@ -193,6 +193,14 @@ a {
     margin: 0 20px;
 }
 
+.blog-info a {
+    color: #562EFF;
+}
+
+.blog-info a:hover {
+    text-decoration: underline;
+}
+
 .blog-title {
     font-size: 28px;
 }
