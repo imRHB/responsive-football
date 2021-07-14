@@ -1,9 +1,16 @@
-/* font import */
+/* ---------------------------
+        font import
+    --------------------------*/
+
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-/* common styles */
+
+/* ---------------------------
+        common styles
+    --------------------------*/
+
 
 * {
     margin: 0;
@@ -62,7 +69,11 @@ a {
     text-decoration: none;
 }
 
-/* players section style */
+
+/* ---------------------------
+        players section style
+    --------------------------*/
+
 
 .players {
     margin-top: 70px;
@@ -92,7 +103,11 @@ a {
     margin: 16px 0 10px 0;
 }
 
-/* highlight section style */
+
+/* ---------------------------
+        highlight section style
+    --------------------------*/
+
 
 .highlight-area {
     margin-top: 165px;
@@ -115,7 +130,11 @@ a {
     padding: 8px 0 24px 0;
 }
 
-/* button style */
+
+/* ---------------------------
+        button style
+    --------------------------*/
+
 
 .link-button {
     font-size: 16px;
@@ -154,7 +173,10 @@ a {
 }
 
 
-/* blog section style */
+/* ---------------------------
+        blog section style
+    --------------------------*/
+
 
 .top-blogs {
     width: 1050px;
@@ -217,12 +239,10 @@ a {
 }
 
 
-/* top blogs section end */
+/* ---------------------------
+        video section style
+    --------------------------*/
 
-
-
-
-/* video section style */
 
 .trending-videos {
     width: 1050px;
@@ -265,12 +285,11 @@ a {
     color: #333;
 }
 
-/* video section style end */
 
+/* ---------------------------
+        highlight section style
+    --------------------------*/
 
-.fa-arrow-right {
-    margin-left: 8px;
-}
 
 .highlight-thumbnail {
     width: 567px;
@@ -281,7 +300,11 @@ a {
     width: 100%;
 }
 
-/* footer area style */
+
+/* ---------------------------
+        footer section style
+    --------------------------*/
+
 
 footer {
     margin: 158px 0 63px 0;
@@ -305,6 +328,10 @@ footer {
     margin: 20px 0;
 }
 
+.fa-arrow-right {
+    margin-left: 8px;
+}
+
 .fab {
     padding: 12px;
     border-radius: 50%;
@@ -318,7 +345,9 @@ footer {
 }
 
 
-/* media query style */
+/* ---------------------------
+        media query style
+    --------------------------*/
 
 /* media query for mobile device */
 
