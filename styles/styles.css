@@ -139,19 +139,32 @@ a {
 .link-button {
     font-size: 16px;
     color: #E02C6D;
-    background: none;
     border: 1px solid #E02C6D;
     padding: 10px 24px;
     cursor: pointer;
-    transition: color 0.4s linear;
+    transition: color 0.5s linear;
     position: relative;
 }
 
-.link-button:hover {
+.btn-1 {
+    color: white;
+    background-color: #E02C6D;
+}
+
+.btn-1:hover {
+    color: #E02C6D;
+    background-color: white;
+}
+
+.btn-2:hover {
     color: white;
 }
 
-.link-button::before {
+.btn-2 {
+    background: none;
+}
+
+.btn-2::before {
     content: "";
     position: absolute;
     left: 0;
@@ -164,11 +177,11 @@ a {
     transform-origin: 0 0;
 }
 
-.link-button::before {
+.btn-2::before {
     transform: scaleX(0);
 }
 
-.link-button:hover::before {
+.btn-2:hover::before {
     transform: scaleX(1);
 }
 
